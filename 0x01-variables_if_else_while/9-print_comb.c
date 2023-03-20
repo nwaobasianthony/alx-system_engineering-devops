@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	int n;
-	n = 48;
+	int n = 48;
 
 	while (n <= 57) /*57 corresponds with ASCII character 9*/
 	{
