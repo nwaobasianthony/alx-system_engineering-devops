@@ -18,6 +18,7 @@ int main(void)
 		}
 		n++;
 	}
+
 	putchar ('\n'); /*add new line*/
 	return (0);
 }
