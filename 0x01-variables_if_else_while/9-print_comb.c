@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* main - entry point
-* Return: always 0 (success)
-*/
+ * main - Write a program that prints all the hex number
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
 	int n;
