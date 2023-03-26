@@ -9,8 +9,8 @@
 
 int _isupper(int c)
 {
-	if (c > 64 && c < 92)
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	else if (c > 96 && c < 124)
+	else
 		return (0);
 }
