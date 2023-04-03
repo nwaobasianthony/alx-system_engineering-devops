@@ -18,15 +18,15 @@ void print_diagonal(int n)
 			if (a == count)
 			{
 				_putchar('\\');
-				_putchar('\n');
 			}
-	 		else
-	 			_putchar(' ');
+			else
+				_putchar(' ');
 			a++;
 		}
 		a = 0;
 		count++;
+		_putchar('\n');
 	}
-
-	/* _putchar('\n');*/ 
+	if (n <= 0)
+		_putchar('\n');
 }
