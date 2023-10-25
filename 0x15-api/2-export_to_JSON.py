@@ -32,3 +32,4 @@ if __name__ == '__main__':
 
     with open('{}.json'.format(eid), 'w') as f:
         json.dump(dic, f)
+        
